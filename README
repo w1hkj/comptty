@@ -1,0 +1,16 @@
+Comptty is used to compare two RTTY streams.  It's comparison function uses
+a linear-programming technique.  It computes total number of errors, the 
+character error rate (CER) and the bit error rate (BER).  Special attention is
+given to SHIFT and UNSHIFT to account for an error occuring in that character.
+
+The latest version can always be found at:
+
+  http://www.w1hkj.com/
+
+Join the linuxham, NBEMSham or win-fldigi Yahoo group for support, news 
+and updates on W1HKJ software:
+
+  http://groups.yahoo.com/group/linuxham/join
+  http://groups.yahoo.com/group/NBEMSham/join
+  http://groups.yahoo.com/group/win-fldigi/join
+

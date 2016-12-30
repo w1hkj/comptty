@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=comptty
+GenericName=Generic Text Comparison
+Comment=Amateur Radio Communications
+Exec=comptty
+Icon=comptty
+Terminal=false
+Type=Application
+Categories=Other;HamRadio;

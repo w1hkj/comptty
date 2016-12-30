@@ -1,0 +1,68 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0302 
+header_name {.h} 
+code_name {.cxx}
+decl {\#include <string>} {private local
+} 
+
+decl {\#include "comp_tty.h"} {private local
+} 
+
+decl {\#include <FL/Fl_File_Chooser.H>} {private local
+} 
+
+Function {make_comptty_win()} {open
+} {
+  Fl_Window main_window {
+    label {Compare RTTY} selected
+    xywh {541 37 590 155} type Double visible
+  } {
+    Fl_Button btnRefFile {
+      label Expected
+      callback {char *fname = fl_file_chooser(
+  "Reference file",
+  "*",
+  "randomtext.txt",
+  0);
+reference_file->value(fname);}
+      xywh {3 20 85 24}
+    }
+    Fl_File_Input reference_file {
+      xywh {90 7 495 40}
+    }
+    Fl_Button btnCompFile {
+      label Received
+      callback {char *fname = fl_file_chooser(
+  "Comparison file",
+  "*",
+  "test.txt",
+  0);
+compare_file->value(fname);}
+      xywh {3 71 85 24}
+    }
+    Fl_File_Input compare_file {
+      xywh {90 58 495 40}
+    }
+    Fl_Button btnCompare {
+      label Compare
+      callback {std::string results;
+txtREPORT->value("");
+txtREPORT->redraw();
+Fl::flush();
+comp_tty(reference_file->value(),
+         compare_file->value(),
+         results);
+txtREPORT->value(results.c_str());}
+      xywh {3 120 85 24}
+    }
+    Fl_Output txtREPORT {
+      label Results
+      xywh {90 120 410 24} align 1
+    }
+    Fl_Button btnExit {
+      label Exit
+      callback {main_window->hide();}
+      xywh {505 120 80 24}
+    }
+  }
+} 
