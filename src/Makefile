@@ -103,9 +103,8 @@ CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
-am__comptty_SOURCES_DIST = comptty.rc include/compttyrc.h \
-	include/compat.h include/compat-mingw.h main.cxx comp_tty.cxx \
-	comp_ui.cxx include/comp_tty.h include/comp_ui.h
+am__comptty_SOURCES_DIST = comptty.rc include/compttyrc.h main.cxx \
+	comp_tty.cxx comp_ui.cxx include/comp_tty.h include/comp_ui.h
 am__objects_1 = comptty.$(OBJEXT)
 ##am__objects_2 = $(am__objects_1)
 am_comptty_OBJECTS = $(am__objects_2) comptty-main.$(OBJEXT) \
@@ -242,10 +241,10 @@ OPT_CFLAGS = -O2 -ffast-math -finline-functions -fomit-frame-pointer
 PACKAGE = comptty
 PACKAGE_BUGREPORT = w1hkj AT w1hkj DOT com
 PACKAGE_NAME = comptty
-PACKAGE_STRING = comptty 1.0.1
+PACKAGE_STRING = comptty 1.0.2
 PACKAGE_TARNAME = comptty
 PACKAGE_URL = 
-PACKAGE_VERSION = 1.0.1
+PACKAGE_VERSION = 1.0.2
 PATH_SEPARATOR = :
 PKG_CONFIG = /usr/bin/pkg-config
 PKG_CONFIG_LIBDIR = 
@@ -257,7 +256,7 @@ RDYNAMIC =
 SET_MAKE = 
 SHELL = /bin/bash
 STRIP = 
-VERSION = 1.0.1
+VERSION = 1.0.2
 WINDRES = 
 X_CFLAGS =  
 X_LIBS = -lX11  
@@ -283,12 +282,12 @@ comptty_BUILD_CPPFLAGS = -I$(srcdir) -I$(srcdir)/include -I$(srcdir)/xmlrpcpp -I
 comptty_BUILD_CXXFLAGS = -I/usr/local/include -I/usr/include/freetype2 -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -D_THREAD_SAFE -D_REENTRANT -I$(srcdir) -I$(srcdir)/include -I$(srcdir)/xmlrpcpp -I$(srcdir)/images -pipe -Wall -fexceptions -O2 -ffast-math -finline-functions -fomit-frame-pointer   -DNDEBUG
 comptty_BUILD_LDADD = -L/usr/local/lib -lfltk_images -lpng -lz -ljpeg -lfltk -lXft -lfontconfig -lpthread -ldl -lm -lX11 -lX11    -ldl  -lpthread  
 comptty_BUILD_LDFLAGS = 
-comptty_VERSION = 1.0.1
+comptty_VERSION = 1.0.2
 
 ########################################################################
 comptty_VERSION_MAJOR = 1
 comptty_VERSION_MINOR = 0
-comptty_VERSION_PATCH = .1
+comptty_VERSION_PATCH = .2
 datadir = ${datarootdir}
 datarootdir = ${prefix}/share
 docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
@@ -333,9 +332,7 @@ comptty_LDFLAGS =
 comptty_LDADD = -L/usr/local/lib -lfltk_images -lpng -lz -ljpeg -lfltk -lXft -lfontconfig -lpthread -ldl -lm -lX11 -lX11    -ldl  -lpthread  
 MINGW32_SRC = \
 	comptty.rc \
-	include/compttyrc.h \
-	include/compat.h \
-	include/compat-mingw.h
+	include/compttyrc.h
 
 
 # We distribute these but do not always compile them
@@ -367,7 +364,7 @@ EXTRA_DIST = comptty.rc comp_ui.fl comptty_icon.cxx \
 	$(srcdir)/../data/win32/fl_app.nsi \
 	$(srcdir)/../data/win32/comptty.ico \
 	$(srcdir)/../scripts/mknsisinst.sh \
-	$(srcdir)/../scripts/buildmxe.sh \
+	$(srcdir)/../scripts/build4mingw.sh \
 	$(srcdir)/../data/mac/Info.plist.in \
 	$(srcdir)/../data/mac/comptty.icns \
 	$(srcdir)/../scripts/mkappbundle.sh $(comptty_WIN32_SRC) \

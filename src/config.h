@@ -11,7 +11,7 @@
 #define BUILD_CONFIGURE_ARGS ""
 
 /* Build date */
-#define BUILD_DATE "Fri Dec 30 08:17:10 CST 2016"
+#define BUILD_DATE "Fri Dec 30 08:57:45 CST 2016"
 
 /* Build host */
 #define BUILD_HOST "dave-dc7600"
@@ -242,7 +242,7 @@
 #define PACKAGE_NAME "comptty"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "comptty 1.0.1"
+#define PACKAGE_STRING "comptty 1.0.2"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "comptty"
@@ -251,7 +251,7 @@
 #define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "1.0.1"
+#define PACKAGE_VERSION "1.0.2"
 
 /* Define as the return type of signal handlers (`int' or `void'). */
 #define RETSIGTYPE void
@@ -300,7 +300,7 @@
 #define USE_X 1
 
 /* Version number of package */
-#define VERSION "1.0.1"
+#define VERSION "1.0.2"
 
 /* x version */
 #define X_BUILD_VERSION "1.6.2"
@@ -340,7 +340,7 @@
 #define comptty_BUILD_LDFLAGS "-L/usr/local/lib -lfltk_images -lpng -lz -ljpeg -lfltk -lXft -lfontconfig -lpthread -ldl -lm -lX11 -lX11 -ldl -lpthread"
 
 /* version string */
-#define comptty_VERSION "1.0.1"
+#define comptty_VERSION "1.0.2"
 
 /* major version number */
 #define comptty_VERSION_MAJOR 1
@@ -349,7 +349,7 @@
 #define comptty_VERSION_MINOR 0
 
 /* patch/alpha version string */
-#define comptty_VERSION_PATCH ".1"
+#define comptty_VERSION_PATCH ".2"
 
 /* Define to empty if `const' does not conform to ANSI C. */
 /* #undef const */

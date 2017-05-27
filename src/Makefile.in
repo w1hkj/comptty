@@ -103,9 +103,8 @@ CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
-am__comptty_SOURCES_DIST = comptty.rc include/compttyrc.h \
-	include/compat.h include/compat-mingw.h main.cxx comp_tty.cxx \
-	comp_ui.cxx include/comp_tty.h include/comp_ui.h
+am__comptty_SOURCES_DIST = comptty.rc include/compttyrc.h main.cxx \
+	comp_tty.cxx comp_ui.cxx include/comp_tty.h include/comp_ui.h
 am__objects_1 = comptty.$(OBJEXT)
 @HAVE_WINDRES_TRUE@@MINGW32_TRUE@am__objects_2 = $(am__objects_1)
 am_comptty_OBJECTS = $(am__objects_2) comptty-main.$(OBJEXT) \
@@ -333,9 +332,7 @@ comptty_LDFLAGS = @comptty_BUILD_LDFLAGS@
 comptty_LDADD = @comptty_BUILD_LDADD@
 MINGW32_SRC = \
 	comptty.rc \
-	include/compttyrc.h \
-	include/compat.h \
-	include/compat-mingw.h
+	include/compttyrc.h
 
 
 # We distribute these but do not always compile them
@@ -367,7 +364,7 @@ EXTRA_DIST = comptty.rc comp_ui.fl comptty_icon.cxx \
 	$(srcdir)/../data/win32/fl_app.nsi \
 	$(srcdir)/../data/win32/comptty.ico \
 	$(srcdir)/../scripts/mknsisinst.sh \
-	$(srcdir)/../scripts/buildmxe.sh \
+	$(srcdir)/../scripts/build4mingw.sh \
 	$(srcdir)/../data/mac/Info.plist.in \
 	$(srcdir)/../data/mac/comptty.icns \
 	$(srcdir)/../scripts/mkappbundle.sh $(comptty_WIN32_SRC) \

@@ -1,327 +1,390 @@
-comptty-comp_tty.o: comp_tty.cxx include/comp_tty.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/stdlib.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/crtdefs.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/_mingw.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/_mingw_mac.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/_mingw_secapi.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/vadefs.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/sdks/_mingw_directx.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/sdks/_mingw_ddk.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include-fixed/limits.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include-fixed/syslimits.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/limits.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/sec_api/stdlib_s.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/malloc.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/fstream \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/istream \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/ios \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/iosfwd \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/c++config.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/os_defines.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/cpu_defines.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stringfwd.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/memoryfwd.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/postypes.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/cwchar \
- /opt/mxe/usr/i686-w64-mingw32.static/include/wchar.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/_mingw_print_push.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/_mingw_off_t.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/_mingw_stat64.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/swprintf.inl \
- /opt/mxe/usr/i686-w64-mingw32.static/include/sec_api/wchar_s.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/_mingw_print_pop.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/exception \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/atomic_lockfree_defines.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/char_traits.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_algobase.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/functexcept.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/exception_defines.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/cpp_type_traits.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/ext/type_traits.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/ext/numeric_traits.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_pair.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/move.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/concept_check.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_iterator_base_types.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_iterator_base_funcs.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/debug/debug.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_iterator.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/ptr_traits.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/predefined_ops.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/localefwd.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/c++locale.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/clocale \
- /opt/mxe/usr/i686-w64-mingw32.static/include/locale.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/stdio.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/sec_api/stdio_s.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/cctype \
- /opt/mxe/usr/i686-w64-mingw32.static/include/ctype.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/ios_base.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/ext/atomicity.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/gthr.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/gthr-default.h \
- /opt/mxe/usr/i686-w64-mingw32.static/include/errno.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/atomic_word.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/locale_classes.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/string \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/allocator.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/c++allocator.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/ext/new_allocator.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/new \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/ostream_insert.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/cxxabi_forced.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_function.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/backward/binders.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/range_access.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/basic_string.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/ext/alloc_traits.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/basic_string.tcc \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/locale_classes.tcc \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/stdexcept \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/streambuf \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/streambuf.tcc \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/basic_ios.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/locale_facets.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/cwctype \
- /opt/mxe/usr/i686-w64-mingw32.static/include/wctype.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/ctype_base.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/streambuf_iterator.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/ctype_inline.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/locale_facets.tcc \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/basic_ios.tcc \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/ostream \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/ostream.tcc \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/istream.tcc \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/codecvt.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/cstdio \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/basic_file.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/c++io.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/fstream.tcc \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/iostream \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/sstream \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/sstream.tcc \
- /opt/mxe/usr/i686-w64-mingw32.static/include/math.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/vector \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_construct.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_uninitialized.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_vector.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_bvector.h \
- /opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/vector.tcc
+comptty-comp_tty.o: comp_tty.cxx /usr/include/stdc-predef.h \
+ include/comp_tty.h /usr/include/stdlib.h /usr/include/features.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/bits/select2.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h \
+ /usr/include/i386-linux-gnu/bits/stdlib.h /usr/include/c++/4.8/fstream \
+ /usr/include/c++/4.8/istream /usr/include/c++/4.8/ios \
+ /usr/include/c++/4.8/iosfwd \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/stringfwd.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/postypes.h /usr/include/c++/4.8/cwchar \
+ /usr/include/wchar.h /usr/include/stdio.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h \
+ /usr/include/i386-linux-gnu/bits/wchar2.h /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/char_traits.h \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/localefwd.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++locale.h \
+ /usr/include/c++/4.8/clocale /usr/include/locale.h \
+ /usr/include/i386-linux-gnu/bits/locale.h /usr/include/c++/4.8/cctype \
+ /usr/include/ctype.h /usr/include/c++/4.8/bits/ios_base.h \
+ /usr/include/c++/4.8/ext/atomicity.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/gthr.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/i386-linux-gnu/bits/sched.h \
+ /usr/include/i386-linux-gnu/bits/timex.h \
+ /usr/include/i386-linux-gnu/bits/setjmp.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/atomic_word.h \
+ /usr/include/c++/4.8/bits/locale_classes.h /usr/include/c++/4.8/string \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/bits/ostream_insert.h \
+ /usr/include/c++/4.8/bits/cxxabi_forced.h \
+ /usr/include/c++/4.8/bits/stl_function.h \
+ /usr/include/c++/4.8/backward/binders.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/basic_string.h \
+ /usr/include/c++/4.8/bits/basic_string.tcc \
+ /usr/include/c++/4.8/bits/locale_classes.tcc \
+ /usr/include/c++/4.8/streambuf /usr/include/c++/4.8/bits/streambuf.tcc \
+ /usr/include/c++/4.8/bits/basic_ios.h \
+ /usr/include/c++/4.8/bits/locale_facets.h /usr/include/c++/4.8/cwctype \
+ /usr/include/wctype.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/ctype_base.h \
+ /usr/include/c++/4.8/bits/streambuf_iterator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/ctype_inline.h \
+ /usr/include/c++/4.8/bits/locale_facets.tcc \
+ /usr/include/c++/4.8/bits/basic_ios.tcc /usr/include/c++/4.8/ostream \
+ /usr/include/c++/4.8/bits/ostream.tcc \
+ /usr/include/c++/4.8/bits/istream.tcc \
+ /usr/include/c++/4.8/bits/codecvt.h /usr/include/c++/4.8/cstdio \
+ /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h \
+ /usr/include/i386-linux-gnu/bits/stdio.h \
+ /usr/include/i386-linux-gnu/bits/stdio2.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/basic_file.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++io.h \
+ /usr/include/c++/4.8/bits/fstream.tcc /usr/include/c++/4.8/iostream \
+ /usr/include/c++/4.8/sstream /usr/include/c++/4.8/bits/sstream.tcc \
+ /usr/include/math.h /usr/include/i386-linux-gnu/bits/huge_val.h \
+ /usr/include/i386-linux-gnu/bits/huge_valf.h \
+ /usr/include/i386-linux-gnu/bits/huge_vall.h \
+ /usr/include/i386-linux-gnu/bits/inf.h \
+ /usr/include/i386-linux-gnu/bits/nan.h \
+ /usr/include/i386-linux-gnu/bits/mathdef.h \
+ /usr/include/i386-linux-gnu/bits/mathcalls.h \
+ /usr/include/i386-linux-gnu/bits/mathinline.h \
+ /usr/include/i386-linux-gnu/bits/math-finite.h \
+ /usr/include/c++/4.8/vector /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/vector.tcc
+
+/usr/include/stdc-predef.h:
 
 include/comp_tty.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/stdlib.h:
+/usr/include/stdlib.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/crtdefs.h:
+/usr/include/features.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/_mingw.h:
+/usr/include/i386-linux-gnu/sys/cdefs.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/_mingw_mac.h:
+/usr/include/i386-linux-gnu/bits/wordsize.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/_mingw_secapi.h:
+/usr/include/i386-linux-gnu/gnu/stubs.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/vadefs.h:
+/usr/include/i386-linux-gnu/gnu/stubs-32.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/sdks/_mingw_directx.h:
+/usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/sdks/_mingw_ddk.h:
+/usr/include/i386-linux-gnu/bits/waitflags.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include-fixed/limits.h:
+/usr/include/i386-linux-gnu/bits/waitstatus.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include-fixed/syslimits.h:
+/usr/include/endian.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/limits.h:
+/usr/include/i386-linux-gnu/bits/endian.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/sec_api/stdlib_s.h:
+/usr/include/i386-linux-gnu/bits/byteswap.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/malloc.h:
+/usr/include/i386-linux-gnu/bits/types.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/fstream:
+/usr/include/i386-linux-gnu/bits/typesizes.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/istream:
+/usr/include/i386-linux-gnu/bits/byteswap-16.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/ios:
+/usr/include/xlocale.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/iosfwd:
+/usr/include/i386-linux-gnu/sys/types.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/c++config.h:
+/usr/include/time.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/os_defines.h:
+/usr/include/i386-linux-gnu/sys/select.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/cpu_defines.h:
+/usr/include/i386-linux-gnu/bits/select.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stringfwd.h:
+/usr/include/i386-linux-gnu/bits/sigset.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/memoryfwd.h:
+/usr/include/i386-linux-gnu/bits/time.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/postypes.h:
+/usr/include/i386-linux-gnu/bits/select2.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/cwchar:
+/usr/include/i386-linux-gnu/sys/sysmacros.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/wchar.h:
+/usr/include/i386-linux-gnu/bits/pthreadtypes.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/_mingw_print_push.h:
+/usr/include/alloca.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/_mingw_off_t.h:
+/usr/include/i386-linux-gnu/bits/stdlib-bsearch.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/_mingw_stat64.h:
+/usr/include/i386-linux-gnu/bits/stdlib-float.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/swprintf.inl:
+/usr/include/i386-linux-gnu/bits/stdlib.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/sec_api/wchar_s.h:
+/usr/include/c++/4.8/fstream:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/_mingw_print_pop.h:
+/usr/include/c++/4.8/istream:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/exception:
+/usr/include/c++/4.8/ios:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/atomic_lockfree_defines.h:
+/usr/include/c++/4.8/iosfwd:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/char_traits.h:
+/usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_algobase.h:
+/usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/functexcept.h:
+/usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/exception_defines.h:
+/usr/include/c++/4.8/bits/stringfwd.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/cpp_type_traits.h:
+/usr/include/c++/4.8/bits/memoryfwd.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/ext/type_traits.h:
+/usr/include/c++/4.8/bits/postypes.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/ext/numeric_traits.h:
+/usr/include/c++/4.8/cwchar:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_pair.h:
+/usr/include/wchar.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/move.h:
+/usr/include/stdio.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/concept_check.h:
+/usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_iterator_base_types.h:
+/usr/include/i386-linux-gnu/bits/wchar.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_iterator_base_funcs.h:
+/usr/include/i386-linux-gnu/bits/wchar2.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/debug/debug.h:
+/usr/include/c++/4.8/exception:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_iterator.h:
+/usr/include/c++/4.8/bits/atomic_lockfree_defines.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/ptr_traits.h:
+/usr/include/c++/4.8/bits/char_traits.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/predefined_ops.h:
+/usr/include/c++/4.8/bits/stl_algobase.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/localefwd.h:
+/usr/include/c++/4.8/bits/functexcept.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/c++locale.h:
+/usr/include/c++/4.8/bits/exception_defines.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/clocale:
+/usr/include/c++/4.8/bits/cpp_type_traits.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/locale.h:
+/usr/include/c++/4.8/ext/type_traits.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/stdio.h:
+/usr/include/c++/4.8/ext/numeric_traits.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/sec_api/stdio_s.h:
+/usr/include/c++/4.8/bits/stl_pair.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/cctype:
+/usr/include/c++/4.8/bits/move.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/ctype.h:
+/usr/include/c++/4.8/bits/concept_check.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/ios_base.h:
+/usr/include/c++/4.8/bits/stl_iterator_base_types.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/ext/atomicity.h:
+/usr/include/c++/4.8/bits/stl_iterator_base_funcs.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/gthr.h:
+/usr/include/c++/4.8/debug/debug.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/gthr-default.h:
+/usr/include/c++/4.8/bits/stl_iterator.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/errno.h:
+/usr/include/c++/4.8/bits/localefwd.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/atomic_word.h:
+/usr/include/i386-linux-gnu/c++/4.8/bits/c++locale.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/locale_classes.h:
+/usr/include/c++/4.8/clocale:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/string:
+/usr/include/locale.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/allocator.h:
+/usr/include/i386-linux-gnu/bits/locale.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/c++allocator.h:
+/usr/include/c++/4.8/cctype:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/ext/new_allocator.h:
+/usr/include/ctype.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/new:
+/usr/include/c++/4.8/bits/ios_base.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/ostream_insert.h:
+/usr/include/c++/4.8/ext/atomicity.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/cxxabi_forced.h:
+/usr/include/i386-linux-gnu/c++/4.8/bits/gthr.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_function.h:
+/usr/include/i386-linux-gnu/c++/4.8/bits/gthr-default.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/backward/binders.h:
+/usr/include/pthread.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/range_access.h:
+/usr/include/sched.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/basic_string.h:
+/usr/include/i386-linux-gnu/bits/sched.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/ext/alloc_traits.h:
+/usr/include/i386-linux-gnu/bits/timex.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/basic_string.tcc:
+/usr/include/i386-linux-gnu/bits/setjmp.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/locale_classes.tcc:
+/usr/include/i386-linux-gnu/c++/4.8/bits/atomic_word.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/stdexcept:
+/usr/include/c++/4.8/bits/locale_classes.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/streambuf:
+/usr/include/c++/4.8/string:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/streambuf.tcc:
+/usr/include/c++/4.8/bits/allocator.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/basic_ios.h:
+/usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/locale_facets.h:
+/usr/include/c++/4.8/ext/new_allocator.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/cwctype:
+/usr/include/c++/4.8/new:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/wctype.h:
+/usr/include/c++/4.8/bits/ostream_insert.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/ctype_base.h:
+/usr/include/c++/4.8/bits/cxxabi_forced.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/streambuf_iterator.h:
+/usr/include/c++/4.8/bits/stl_function.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/ctype_inline.h:
+/usr/include/c++/4.8/backward/binders.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/locale_facets.tcc:
+/usr/include/c++/4.8/bits/range_access.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/basic_ios.tcc:
+/usr/include/c++/4.8/bits/basic_string.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/ostream:
+/usr/include/c++/4.8/bits/basic_string.tcc:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/ostream.tcc:
+/usr/include/c++/4.8/bits/locale_classes.tcc:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/istream.tcc:
+/usr/include/c++/4.8/streambuf:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/codecvt.h:
+/usr/include/c++/4.8/bits/streambuf.tcc:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/cstdio:
+/usr/include/c++/4.8/bits/basic_ios.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/basic_file.h:
+/usr/include/c++/4.8/bits/locale_facets.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/i686-w64-mingw32.static/bits/c++io.h:
+/usr/include/c++/4.8/cwctype:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/fstream.tcc:
+/usr/include/wctype.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/iostream:
+/usr/include/i386-linux-gnu/c++/4.8/bits/ctype_base.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/sstream:
+/usr/include/c++/4.8/bits/streambuf_iterator.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/sstream.tcc:
+/usr/include/i386-linux-gnu/c++/4.8/bits/ctype_inline.h:
 
-/opt/mxe/usr/i686-w64-mingw32.static/include/math.h:
+/usr/include/c++/4.8/bits/locale_facets.tcc:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/vector:
+/usr/include/c++/4.8/bits/basic_ios.tcc:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_construct.h:
+/usr/include/c++/4.8/ostream:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_uninitialized.h:
+/usr/include/c++/4.8/bits/ostream.tcc:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_vector.h:
+/usr/include/c++/4.8/bits/istream.tcc:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/stl_bvector.h:
+/usr/include/c++/4.8/bits/codecvt.h:
 
-/opt/mxe/usr/lib/gcc/i686-w64-mingw32.static/5.2.0/include/c++/bits/vector.tcc:
+/usr/include/c++/4.8/cstdio:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/i386-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/i386-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/i386-linux-gnu/bits/stdio.h:
+
+/usr/include/i386-linux-gnu/bits/stdio2.h:
+
+/usr/include/i386-linux-gnu/c++/4.8/bits/basic_file.h:
+
+/usr/include/i386-linux-gnu/c++/4.8/bits/c++io.h:
+
+/usr/include/c++/4.8/bits/fstream.tcc:
+
+/usr/include/c++/4.8/iostream:
+
+/usr/include/c++/4.8/sstream:
+
+/usr/include/c++/4.8/bits/sstream.tcc:
+
+/usr/include/math.h:
+
+/usr/include/i386-linux-gnu/bits/huge_val.h:
+
+/usr/include/i386-linux-gnu/bits/huge_valf.h:
+
+/usr/include/i386-linux-gnu/bits/huge_vall.h:
+
+/usr/include/i386-linux-gnu/bits/inf.h:
+
+/usr/include/i386-linux-gnu/bits/nan.h:
+
+/usr/include/i386-linux-gnu/bits/mathdef.h:
+
+/usr/include/i386-linux-gnu/bits/mathcalls.h:
+
+/usr/include/i386-linux-gnu/bits/mathinline.h:
+
+/usr/include/i386-linux-gnu/bits/math-finite.h:
+
+/usr/include/c++/4.8/vector:
+
+/usr/include/c++/4.8/bits/stl_construct.h:
+
+/usr/include/c++/4.8/ext/alloc_traits.h:
+
+/usr/include/c++/4.8/bits/stl_uninitialized.h:
+
+/usr/include/c++/4.8/bits/stl_vector.h:
+
+/usr/include/c++/4.8/bits/stl_bvector.h:
+
+/usr/include/c++/4.8/bits/vector.tcc:
