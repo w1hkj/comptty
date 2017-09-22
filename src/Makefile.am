@@ -101,7 +101,9 @@ comptty_SOURCES += \
 	comp_tty.cxx \
 	comp_ui.cxx \
 	include/comp_tty.h  \
-	include/comp_ui.h
+	include/comp_ui.h \
+	include/compat.h \
+	include/compat-mingw.h
 
 # Additional source files that are distributed
 EXTRA_DIST = \
