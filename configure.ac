@@ -12,7 +12,7 @@ dnl major and minor must be integers; patch may
 dnl contain other characters or be empty
 m4_define(comptty_MAJOR,  [1])
 m4_define(comptty_MINOR,  [0])
-m4_define(comptty_PATCH,  [.2])
+m4_define(comptty_PATCH,  [.3])
 
 AC_INIT([comptty], comptty_MAJOR.comptty_MINOR[]comptty_PATCH, [w1hkj AT w1hkj DOT com])
 

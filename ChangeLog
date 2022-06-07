@@ -1,29 +1,10 @@
+2022-06-07  dave-w1hkj  <w1hkj@bellsouth.net>
 
+	b8d9b9a: Version 1.0.3
 
-=Version 1.0.2=
+2018-02-01  David Freese  <w1hkj@bellsouth.net>
 
-2016-12-30  Greg Beam  <ki7mt01@gmail.com>
-
-	86c4910: mxe update
-
-2015-06-11  Kamal Mostafa  <kamal@whence.com>
-
-	43e371e: BUILD_{DATE,USER,HOST}
-
-2015-03-23  David Freese  <iam_w1hkj@w1hkj.com>
-
-	cc69eb2: FSF address
-	e36ceeb: Warnings
-
-2014-09-07  w1hkj.mint  <w1hkj.mint@bellsouth.net>
-
-	74be373: build fix
-
-
-=Version 1.0.1=
-
-
-2014-06-01  David Freese  <w1hkj@w1hkj.com>
-
-	5c7cbe0: Distribution files
-	ede7e60: Initial repository
+	05ee5bf: OS X build script
+	02a414a: mod mingw
+	720c923: INSTALL
+	75467d0: rebuild of comptty
